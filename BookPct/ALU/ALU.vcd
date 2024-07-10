@@ -1,0 +1,79 @@
+$date
+	Sat May 18 13:44:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_tb $end
+$var wire 8 ! o_ALU [7:0] $end
+$var parameter 32 " WIDTH $end
+$var reg 4 # i_inA [3:0] $end
+$var reg 4 $ i_inB [3:0] $end
+$var reg 3 % i_s [2:0] $end
+$scope module u_ALU $end
+$var wire 4 & i_inA [3:0] $end
+$var wire 4 ' i_inB [3:0] $end
+$var wire 3 ( i_s [2:0] $end
+$var wire 8 ) o_ALU [7:0] $end
+$var parameter 32 * WIDTH $end
+$scope function alu_operation $end
+$var reg 4 + inA [3:0] $end
+$var reg 4 , inB [3:0] $end
+$var reg 3 - s [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 *
+b100 "
+$end
+#0
+$dumpvars
+b0 -
+b1010 ,
+b1111 +
+b1111 )
+b0 (
+b1010 '
+b1111 &
+b0 %
+b1010 $
+b1111 #
+b1111 !
+$end
+#10000
+b11001 !
+b11001 )
+b1 -
+b1 %
+b1 (
+#20000
+b101 !
+b101 )
+b10 -
+b10 %
+b10 (
+#30000
+b11110 !
+b11110 )
+b11 -
+b11 %
+b11 (
+#40000
+b111 !
+b111 )
+b100 -
+b100 %
+b100 (
+#50000
+b1 !
+b1 )
+b101 -
+b101 %
+b101 (
+#60000

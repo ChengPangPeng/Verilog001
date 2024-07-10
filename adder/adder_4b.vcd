@@ -1,0 +1,87 @@
+$date
+	Sun Apr 14 14:34:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module adder_4b_tb $end
+$var wire 5 ! o_sum [4:0] $end
+$var parameter 32 " WIDTH $end
+$var reg 4 # i_a [3:0] $end
+$var reg 4 $ i_b [3:0] $end
+$scope module u_adder_4b $end
+$var wire 4 % i_a [3:0] $end
+$var wire 4 & i_b [3:0] $end
+$var wire 5 ' o_sum [4:0] $end
+$var parameter 32 ( WIDTH $end
+$var reg 4 ) cout [3:0] $end
+$var reg 5 * sum_p [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 (
+b100 "
+$end
+#0
+$dumpvars
+b0 *
+b0 )
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 !
+$end
+#30
+b1 !
+b1 '
+b1 *
+b1 #
+b1 %
+#40
+b1 )
+b10 !
+b10 '
+b10 *
+b1 $
+b1 &
+#50
+b0 )
+b1 !
+b1 '
+b1 *
+b0 #
+b0 %
+#70
+b1111 )
+b10000 !
+b10000 '
+b10000 *
+b1111 #
+b1111 %
+#80
+b11110 !
+b11110 '
+b11110 *
+b1111 $
+b1111 &
+#90
+b0 )
+b1111 !
+b1111 '
+b1111 *
+b0 #
+b0 %
+#100
+b0 !
+b0 '
+b0 *
+b0 $
+b0 &
+#1100

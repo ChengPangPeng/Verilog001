@@ -80,7 +80,7 @@ module clkDivider_by7_counter (
 			else if(tff_1_en_p)
 			o_tff_1_out_p <= ~o_tff_1_out_p;         // (when counter value==0, i_tff_1_en_p = 1)
 			else
-			o_tff_1_out_p = o_tff_1_out_p;
+			o_tff_1_out_p <= o_tff_1_out_p;
 		end	//TFF_01_out
 
 	//TFF_02_out
@@ -91,7 +91,7 @@ module clkDivider_by7_counter (
 			else if(tff_2_en_p)
 			o_tff_2_out_p <= ~o_tff_2_out_p;         // (when counter value==0, i_tff_1_en_p = 1)
 			else
-			o_tff_2_out_p = o_tff_2_out_p;
+			o_tff_2_out_p <= o_tff_2_out_p;
 		end	//TFF_02_out
 
 
